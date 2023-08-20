@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 7</title>
+    <link rel="stylesheet" href="css/estilo7.css">
+</head>
+<body>
+    <main>
+        <table border="0">
+            <thead>
+                <td>Condição</td>
+                <td>IMC em Mulheres</td>
+                <td>IMC em Homens</td>
+            </thead>
+            <tr>
+                <td>Abaixo do peso</td>
+                <td>< 19,1</td>
+                <td>< 20,7</td>
+            </tr>
+                <td>No peso normal</td>
+                <td>19,1 - 25,8</td>
+                <td>20,7 - 26,4</td>
+            </tr>
+                <td>Marginalmente acima do peso</td>
+                <td>25,8 - 27,3</td>
+                <td>26,4 - 27,8</td>
+            </tr>
+                <td>Acima do peso ideal</td>
+                <td>27,3 - 32,3</td>
+                <td>27,8 - 31,1</td>
+            </tr>
+                <td>Obeso</td>
+                <td>> 32,3</td>
+                <td>> 31,1</td>
+            </tr>
+        </table>
+
+        <form>
+        Sexo: <input type="text" id="sexo" placeholder="M / F"> <br> <br>
+        Altura: <input type="text" id="altura" placeholder="m"> <br> <br>
+        Peso: <input type="text" id="peso" placeholder="kg"> <br> <br>
+    
+        <button type="button" id="btn">Calcular</button> <br> <br>
+
+        <div id="final"></div>
+        </form>
+    </main>
+    <script src="js/script7.js"></script>
+</body>
+</html>

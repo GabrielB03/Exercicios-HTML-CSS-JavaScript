@@ -1,0 +1,22 @@
+.aprovado{
+    color: #00f;
+}
+
+.reprovado{
+    color: #f00;
+}
+
+.exame{
+    color: rgb(248, 133, 25);
+}
+
+td{
+    padding: 10px 20px 10px 20px;
+    background-color: bisque;
+    text-align: center;
+}
+
+thead td{
+    background-color: rgb(2, 2, 93);
+    color: rgb(206, 206, 206)
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Exercício 5</title>
+    <link rel="stylesheet" href="css/estilo5.css">
+</head>
+<body>
+    <main>
+        <button type="button" id="btn1">Cronômetro</button>
+        <button type="button" id="btn2">Slide show</button>
+        <button type="button" id="btn3">Tabuada</button>
+        
+        <!-- DIV INICIAL -->
+        <div id="divInicial">
+            <p>Clique nas abas acima.</p>
+        </div>
+
+        <!-- DIV DO CRONÔMETRO -->
+        <div id="divCronometro">
+            <div id="txtNum"></div>
+        </div>
+
+        <!-- DIV DAS IMAGENS -->
+        <div id="divSlide">
+            <div id="conteudo">
+                <img src="imagens/img1.jpg" id="imagens"><br>
+                <input type="button" id="ant" value="Anterior">
+                <input type="button" id="prox" value="Próxima">
+            </div>
+        </div>
+
+        <!-- DIV DA TABUADA -->
+        <div id="divTabuada">
+            Digite o número da tabuada que deseja calcular:<br>
+            <form>
+                <input type="text" id="txtNumTab">
+                <input type="button" id="btntab" value="Calcular">
+            </form>
+            <div id="restab"></div>
+        </div>
+    </main>
+    <script src="js/script5.js"></script>
+</body>
+</html>

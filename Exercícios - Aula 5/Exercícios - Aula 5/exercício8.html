@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8</title>
+    <link rel="stylesheet" href="css/estilo8.css">
+</head>
+<body>
+    <main>
+        <table border="1">
+            <thead>
+                <td>Faixa salarial</td>
+                <td>Aliquota</td>
+            </thead>
+            <tr>
+                <td>Até R$ 1.434</td>
+                <td>0% (isento)</td>
+            </tr>
+            <tr>
+                <td>De R$ 1.434 a R$ 2.150</td>
+                <td>7,5%</td>
+            </tr>
+            <tr>
+                <td>De R$ 2.150 a R$ 2.866</td>
+                <td>15%</td>
+            </tr>
+            <tr>
+                <td>De R$ 2.866 a R$ 3.582</td>
+                <td>22,5%</td>
+            </tr>
+            <tr>
+                <td>Acima de R$ 3.582</td>
+                <td>27,5%</td>
+            </tr>
+        </table>
+    
+        <form></form>
+        Registro: <input type="text" id="registro" placeholder="RG"> <br> <br>
+        Nome: <input type="text" id="nome" placeholder="Nome completo"> <br> <br>
+        Salário: <input type="text" id="salario" placeholder="R$"> <br> <br>
+
+        <button type="button" id="botao">Calcular IR</button> <br> <br>
+
+        Imposto de Renda: <input type="text" id="final" placeholder="R$" readonly>
+        </form>
+    </main>
+    <script src="js/script8.js"></script>
+</body>

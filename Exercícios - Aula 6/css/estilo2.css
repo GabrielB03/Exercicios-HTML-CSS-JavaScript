@@ -1,0 +1,11 @@
+td{
+    padding: 20px;
+}
+
+.par{
+    background-color: rgb(0, 255, 0);
+}
+
+.impar{
+    background-color: rgb(255, 255, 0);
+}

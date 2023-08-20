@@ -1,0 +1,50 @@
+body {
+    font-family: verdana;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: linear-gradient(#070707, #75f716);
+    border-radius: 10px 10px 0 0;
+    border: none;
+    height: 40px;
+    width: 120px;
+    color: #fff;
+    font-weight: bold;
+}
+
+div {
+    height: 350px;
+    width: 400px;
+}
+
+#divInicial{
+    background-color: #ccc; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#divCronometro {
+    background-color: #edd365;
+    display: none;
+}
+
+#divSlide {
+    background-color: #8effa4;
+    display: none;
+}
+
+#divTabuada {
+    background-color: #7fecfa;
+    display: none;
+}
+
+#txtNum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20pt;
+}

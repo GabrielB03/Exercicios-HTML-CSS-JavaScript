@@ -1,0 +1,37 @@
+main {
+    border: 5px solid red;
+    border-radius: 100px;
+    width: 500px;
+    text-align: justify;
+    background-image: linear-gradient(white, rgb(203, 203, 203));
+    margin: auto;
+    background:linear-gradient(white, #c7c7c7);
+    font-size: 12.5pt;
+    box-shadow: 10px 10px 10px white, 20px 20px 10px rgb(0, 0, 0);
+}
+
+p {
+    margin: 50px;
+}
+
+.classe1 {
+    background-color: red;
+    color: white;
+}
+
+.classe2 {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.classe3 {
+    color: rgb(0, 255, 0);
+    background-color: black;
+    text-decoration: line-through;
+}
+
+.classe4 {
+    font-weight: bold;
+    color: red;
+    text-decoration: underline;
+}

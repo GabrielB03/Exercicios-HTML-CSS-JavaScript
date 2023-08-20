@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 6</title>
+    <link rel="stylesheet" href="css/estilo6.css">
+</head>
+<body>
+    <main>
+    <thtable border="0">
+        <thead>
+            <td>Código</td>
+            <td>Condições de Pagamento</td>
+        </thead>
+        <tr>
+            <td>1</td>
+            <td>À vista 10% de desconto</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Cartâo 5% de desconto</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Parcelado 10% de aumentado</td>
+        </tr>
+    </thtable>
+
+        <form>   
+        Valor: <input type="text" id="valor" placeholder="R$"> <br> <br>
+        Código:
+        <select id="codigo">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+
+        <button type="button" id="btn">Calcular</button> <br> <br>
+
+        Valor real: <input type="text" id="real" readonly placeholder="R$">
+        Valor pago: <input type="text" id="pago" readonly placeholder="R$">
+
+        <button type="button" id="btn">Calcular</button>
+        </form>
+    </main>
+    <script src="js/script6.js"></script>
+</body>
+</html>

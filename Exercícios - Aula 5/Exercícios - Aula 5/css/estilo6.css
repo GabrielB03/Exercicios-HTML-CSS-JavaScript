@@ -1,0 +1,13 @@
+td{
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+    background-color: rgb(183, 183, 231);
+}
+
+thead td{
+    background-color: rgb(22, 134, 183);
+}
+
+table{
+    padding-bottom: 20px;
+}

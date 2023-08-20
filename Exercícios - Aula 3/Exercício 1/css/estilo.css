@@ -1,0 +1,35 @@
+table{
+    background-color: rgba(177, 174, 174, 0.534);
+    text-align: center;
+    width: 500px;
+    height: 200px;
+}
+
+.tabela{
+    font-style: bold;
+}
+
+.tabela :first-child{
+    background-color: rgba(148, 146, 146, 0.568);
+    border-top: 2px solid rgb(63, 63, 63);
+}
+
+.tabela :nth-child(2){
+   background-color: rgba(198, 255, 93, 0.568);
+   border-top: 2px solid rgb(1, 68, 1);
+}
+
+.tabela :nth-child(3){
+    background-color: rgba(119, 213, 250, 0.568);
+    border-top: 2px solid rgb(2, 35, 126)
+}
+
+.tabela :nth-child(4){
+    background-color: rgb(221, 185, 255);
+    border-top: 2px solid rgb(55, 0, 77);
+}
+
+.tabela :nth-child(5){
+    background-color: rgb(255, 187, 85);
+    border-top: 2px solid rgb(187, 50, 0);
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1</title>
+</head>
+<body>
+    <main>
+        <table>
+            <tr>
+                <th>Nº de parcelas</th>
+                <th>% de juros</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>7</td>
+            </tr>
+        </table>
+        <hr>
+
+        <form>
+            Valor da compra:<br>
+            <input type="text" id="txtvalor"><br>
+            Parcelas:<br>
+            <select id="txtparcelas">
+                <option value="" hidden>Selecione a qtd de parcelas</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="4">4</option>
+            </select>
+            <br>
+            Valor das parcelas:<br>
+            <input type="text" id="txtresult" readonly><br>
+            <button type="button" id="botao">Calcular</button>
+        </form>
+    </main>
+    <script src="js/script1.js"></script>
+</body>
+</html>
