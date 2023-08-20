@@ -1,0 +1,26 @@
+td{
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(248, 236, 221);
+    text-align: center;
+}
+
+thead td{
+    background-color: rgb(23, 23, 82);
+    color: rgb(216, 216, 216);
+}
+
+.aprovado{
+    background-color: #1e90ff;
+}
+
+.reprovado{
+    background-color: #b22222;
+}
+
+.exame{
+    background-color: #ff8c00;
+}
+
+.aprovado, .reprovado, .exame{
+    color: white;
+}

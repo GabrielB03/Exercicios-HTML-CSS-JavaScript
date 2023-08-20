@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registro>
+    <pessoafisica>
+        <cpf>359.978.098-62</cpf>
+        <rg>30.887.520-5</rg>
+        <nome>Alana da Rocha</nome>
+        <data_de_nascimento>09/10/2000</data_de_nascimento>
+        <endereco>
+            <logradouro>Rua Santo Isidoro</logradouro>
+            <numero>968</numero>
+            <bairro>Chácara Califórnia</bairro>
+            <cep>03406-120</cep>
+            <cidade>São Paulo</cidade>
+            <estado>São Paulo</estado>
+        </endereco>
+        <contato>
+            <telefone>(11) 2794-9153</telefone>
+            <celular>(11) 99418-5678</celular>
+            <email>alana_darocha@gmail.com</email>
+        </contato>
+        <renda>1291,00</renda>
+        <foto>alana.jpg</foto>
+        <contacorrente>
+            <banco>Banco do Brasil</banco>
+            <agencia>4239</agencia>
+            <numero_da_conta>1237874-7</numero_da_conta>
+        </contacorrente>
+    </pessoafisica>
+
+    <pessoafisica>
+        <cpf>178.035.317-09</cpf>
+        <rg>33.032.10-55</rg>
+        <nome>Juan Vieira</nome>
+        <data_de_nascimento>22/03/1982</data_de_nascimento>
+        <endereco>
+            <logradouro>Rua Avelino Nascimento</logradouro>
+            <numero>544</numero>
+            <bairro>Centro</bairro>
+            <cep>39900-970</cep>
+            <cidade>Almenara</cidade>
+            <estado>Minas Gerais</estado>
+        </endereco>
+        <contato>
+            <telefone>(33) 2821-7122</telefone>
+            <celular>(33) 98994-3178</celular>
+            <email>juan_vieira@gmail.com</email>
+        </contato>
+        <renda>1500,00</renda>
+        <foto>juan_vieira.jpg</foto>
+        <contacorrente>
+            <banco>Banco do Brasil</banco>
+            <agencia>0284</agencia>
+            <numero_da_conta>173969-7</numero_da_conta>
+        </contacorrente>
+    </pessoafisica>
+
+    <pessoafisica>
+        <cpf>369.850.429-45</cpf>
+        <rg>26.837.12-71</rg>
+        <nome>Diego Pedro Bryan da Cunha</nome>
+        <data_de_nascimento>05/11/1984</data_de_nascimento>
+        <endereco>
+            <logradouro>Rua Ulisses Machado Dutra</logradouro>
+            <numero>605</numero>
+            <bairro>Dom Bosco</bairro>
+            <cep>88303-394</cep>
+            <cidade>Itajaí</cidade>
+            <estado>Santa Catarina</estado>
+        </endereco>
+        <contato>
+            <telefone>(47) 3763-9130</telefone>
+            <celular>(47) 97332-6631</celular>
+            <email>diego_pedro_dacunha@gmail.com</email>
+        </contato>
+        <renda>9100,00</renda>
+        <foto>diego_pedro_bryan_da_cunha.jpg</foto>
+        <contacorrente>
+            <banco>Itaú</banco>
+            <agencia>7426</agencia>
+            <numero_da_conta>66565-4</numero_da_conta>
+        </contacorrente>
+    </pessoafisica>
+
+    <pessoafisica>
+        <cpf>396.854.010-71</cpf>
+        <rg>42.087.55-29</rg>
+        <nome>Kevin Nathan da Mata</nome>
+        <data_de_nascimento>24/09/1989</data_de_nascimento>
+        <endereco>
+            <logradouro>Rua General Vitorino</logradouro>
+            <numero>722</numero>
+            <bairro>Nova Esperança</bairro>
+            <cep>975032-80</cep>
+            <cidade>Uruguaiana</cidade>
+            <estado>Rio Grande do Sul</estado>
+        </endereco>
+        <contato>
+            <telefone>(55) 2001-1901</telefone>
+            <celular>(55) 92311-5008</celular>
+            <email>kevin.damata@gmail.com</email>
+        </contato>
+        <renda>5000,00</renda>
+        <foto>kevin_nathan.jpg</foto>
+        <contacorrente>
+            <banco>Bradesco</banco>
+            <agencia>1972</agencia>
+            <numero_da_conta>0847760-4</numero_da_conta>
+        </contacorrente>
+    </pessoafisica>
+
+    <pessoafisica>
+        <cpf>956.277.517-89</cpf>
+        <rg>38.381.09-30</rg>
+        <nome>Jorge Lucas Oliveira</nome>
+        <data_de_nascimento>05/03/1967</data_de_nascimento>
+        <endereco>
+            <logradouro>Rua Cento e Sessenta e Oito</logradouro>
+            <numero>912</numero>
+            <bairro>Boa Esperança</bairro>
+            <cep>238943-66</cep>
+            <cidade>Seropédica</cidade>
+            <estado>Rio de Janeiro</estado>
+        </endereco>
+        <contato>
+            <telefone>(21) 2835-0566</telefone>
+            <celular>(21) 99110-0341</celular>
+            <email>jorge_oliveira@gmail.com</email>
+        </contato>
+        <renda>3000,00</renda>
+        <foto>jorge_lucas.jpg</foto>
+        <contacorrente>
+            <banco>Santander</banco>
+            <agencia>3453</agencia>
+            <numero_da_conta>35734677-1</numero_da_conta>
+        </contacorrente>
+    </pessoafisica>
+</registro>

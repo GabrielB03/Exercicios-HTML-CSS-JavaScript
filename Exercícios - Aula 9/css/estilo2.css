@@ -1,0 +1,36 @@
+/*table#tbl {
+    border: solid black 1px;
+}
+tr,th,td {
+    border-bottom: 1px groove gray;
+    border-right: 1px groove gray;
+}*/
+form {
+    margin: auto;
+    width: 240px;
+  }
+  
+  #tabela {
+    margin: auto;
+    margin-top: 20px;
+    width: 800px;
+    border: 1px solid black;
+  }
+  input {
+    text-align: center;
+  }
+  #btn1, #btn2 {
+    width: 177px;
+  }
+  tr,th,td {
+    border: 1px groove gray;
+  }
+  #ex {
+    margin: 10 0 10 0;
+    height: 30px;
+    width: 200px;
+  }
+
+  #jex {
+    width: 177px;
+  }

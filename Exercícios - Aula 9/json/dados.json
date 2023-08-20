@@ -1,0 +1,10 @@
+{
+    "livros": 
+    [
+        {"id": 1, "titulo": "Guia Pokémon", "autor": "Kaka", "edicao": "3ª", "ano": "2001","editora": "Pokemon Company", "local": "Johto", "classificacao": "L", "codigo": "01","assunto": "A jornada completa de um mestre pokémon", "capa":"livro1.png"},
+        {"id": 2, "titulo": "Livro de Receitas do Sanji", "autor": "Sanji", "edicao": "13ª", "ano": "2010","editora": "Toei", "local": "Mundo de One Piece", "classificacao": "L", "codigo": "02","assunto": "Livro de receitas", "capa":"livro2.png"},
+        {"id": 3, "titulo": "Como conquistar um reino", "autor": "Doflamingo Donquixote", "ano": "2015", "edicao": "1ª", "editora": "Toei", "local": "Dressrosa", "classificacao": "M", "codigo": "03","assunto": "Um tutorial de como conquistar um reino", "capa":"livro3.png"},
+        {"id": 4, "titulo": "Manual de Como se Perder em uma Linha Reta", "autor": "Roronoa Zoro", "edicao": "1ª", "ano": "2007","editora": "Toei", "local": "Long Ring Long Land", "classificacao": "L", "codigo": "04","assunto": "Um tutorial de como se perder em linha reta", "capa":"livro4.png"},
+        {"id": 5, "titulo": "CARNE!", "autor": "Luffy", "edicao": "2019", "ano": "2011","editora": "Toei", "local": "Impel Down", "classificacao": "L", "codigo": "05","assunto": "Luffy quer carne", "capa":"livro5.png"}
+    ]
+}
