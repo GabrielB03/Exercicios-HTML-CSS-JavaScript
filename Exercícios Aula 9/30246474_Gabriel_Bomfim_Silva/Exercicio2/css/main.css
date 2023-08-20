@@ -1,0 +1,95 @@
+html, body{
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  margin: 0px; 
+  box-sizing: border-box;
+}
+
+input,textarea {
+  outline: none;
+  border: none;
+}
+
+
+body {
+  padding: 15px;
+  background-image: linear-gradient(to top, #3DE9FF, #FFAAAA);
+}
+
+button {
+  color: #FFFFFF;
+  border-radius: 25px;
+  border-style: none;
+}
+
+form {
+  box-shadow: 2px 2px 7px ;
+  position: relative;
+  bottom: 0;
+  height: 550px;
+  padding-top: 50px;
+  color: #000;
+  border-radius: 30px 30px 130px 130px;
+  width: 740px;
+  margin: auto;
+  background-color: #fff;
+
+}
+
+
+.titulo{
+  text-align: center;
+  padding-bottom: 44px;
+  margin-left: 15px;
+}
+
+
+.entrada {
+  padding: 0 30px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  width: 85%;
+  background: #C1FFEC;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+  height: 50px;
+  margin-left: 50px;
+}
+
+.textarea {
+  padding: 0 30px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  width: 85%;
+  background: #C1FFEC;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+  height: 150px;
+  margin-left: 50px;
+
+
+}
+
+.button {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #FFFFFF;
+  padding: 0 25px;
+  width: 193px;
+  height: 50px;
+  background: #CC3D3D;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-left: 270px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #333333;
+  cursor: pointer;
+}

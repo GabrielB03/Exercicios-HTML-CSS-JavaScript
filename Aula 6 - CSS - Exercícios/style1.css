@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+header{
+    background-color: #000000;
+    color: #FFFFFF;
+    width: 960px;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+main{
+    width: 960px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+div{
+    width: 310px;
+    border: 1px solid #000000;
+    border-radius: 30px;
+}
+
+div figure{
+    margin: auto;
+    width: 95%;
+    border-bottom: 3px solid #000000;
+    padding: 20px 0px 10px 0px;
+}
+
+div figure img{
+    width: 200px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+}
+
+div figure caption{
+    margin-top: 2px;
+    font-size: 12px;
+    text-align: center;
+}
+
+div h2{
+    text-align: left;
+    padding: 15px 0 20px 7px;
+    font-size: large;
+}
+
+div p{
+    text-align: justify;
+    padding: 0 7px 10px 7px;
+}
+
+div a{
+    display: block;
+    text-align: left;
+    margin: 0 7px 12px 7px;
+}

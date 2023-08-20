@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 40%;
+}
+
+figure {
+    inline-size: auto;
+    width: 15%;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 20pt;
+    margin: auto;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    color: rgba(0, 0, 0, 0.936);
+    text-shadow: 0.5px 0.5px 4px #ff0000;
+}
+
+figure > img {
+    width: 100%;
+
+}
+
+li {
+    margin: 0 auto;
+    text-align: left;
+    width: 300px;
+}
+
+.contato {
+    display: inline-block
+}
+
+footer {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    font-size: 18px;
+    margin: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}

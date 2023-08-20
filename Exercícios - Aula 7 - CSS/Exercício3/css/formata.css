@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+main{
+    width: 770px;
+    margin: auto;
+}
+
+article{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(0, 119, 255);
+    width: 250px;
+    height: 730px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 0px 15px 15px 0px;
+    padding: 20px;
+}
+
+article p{
+    margin-top: 261px;
+}
+
+aside{
+    margin-top: 10px;
+}
+
+aside div{
+    width: 500px;
+    height: 350px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    display: block;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 5px;
+}
+
+aside div ul{
+    margin-left: 30px;
+}
+
+.texto{
+    margin: 20px;
+    margin-left: 0;
+}
+
+#claro{
+    border: 2px solid red;
+    box-shadow: 10px 10px 5px rgba(255, 0, 0, 0.381);
+}
+
+#oi{
+    border: 2px solid rgb(255, 183, 0);
+    box-shadow: 10px 10px 5px rgba(255, 183, 0, 0.555);
+}
+
+img{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+article, aside{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#formulario{
+    text-align: center;
+    border: 2px solid black;
+    height: 110px;
+    line-height: 20px;
+}
+
+#formulario h4{
+    margin-top: 10px;
+}
+
+#formulario form{
+    margin-bottom: 20px;
+}
+
+#rgm{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    line-height: 50px;
+    margin-top: 10px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}

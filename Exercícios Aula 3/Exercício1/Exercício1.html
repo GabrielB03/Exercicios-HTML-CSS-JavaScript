@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Exercício 1</title>
+    </head>
+    <body>
+        
+        <form method="get">
+            <fieldset>
+                <legend>Dados do paciente</legend>
+                    Nome do paciente: <input type="text" name="nome"><br>
+                    Registro hospitalar: <input type="text" name="registro"><br>
+                    Data de inclusão:  <input type="date" name="inclusao"><br>
+                    Data de nascimento: <input type="date" name="datanasc"><br>
+                    E-mail: <input type="email" name="email"><br>
+                    Gênero: <br>
+                    <label for="g1">
+                    <input type="radio" name="genero" value="1" id="g1">Feminino<br>
+                    </label>
+                    <br>
+                    <label for="g2">
+                    <input type="radio" name="genero" value="2" id="g2">Masculino<br>
+                    </label>
+                    Raça declarada:<br>
+                    <select name="raca">
+                        <option value=""></option>
+                        <option value="1">Branca</option>
+                        <option value="2">Negra</option>
+                        <option value="3">Parda</option>
+                        <option value="4">Amarela</option>
+                    </select>
+                    <br>
+                    Como ficou sabendo da pesquisa:<br>
+                    <input type="checkbox" name="pesquisa" value="convidado">Convidado
+                    <br>
+                    <input type="checkbox" name="pesquisa" value="internet">Internet
+                    <br>
+                    <input type="checkbox" name="pesquisa" value="amigos">Amigos
+                    <br>
+                    <input type="checkbox" name="pesquisa" value="familiares">Familiares
+                    <br>
+                    <input type="checkbox" name="pesquisa" value="outros">Outros
+                    <br>
+                    <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
